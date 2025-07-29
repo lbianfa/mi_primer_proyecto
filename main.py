@@ -7,4 +7,6 @@ table = [
     ["Mars", 3390, 641.85]
 ]
 
-print(tabulate(table))
+headers = ["Planeta", "Radio", "Masa"]
+
+print(tabulate(table, headers, tablefmt="rounded_outline"))
